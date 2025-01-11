@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Content\Items\Accessories\AquariusBlessing.png" />
+	  <None Remove="Content\Items\Accessories\AriesBlessing.png" />
+	  <None Remove="Content\Items\Accessories\PiscesBlessing.png" />
+	  <None Remove="Content\Items\Accessories\SagittariusBlessing.png" />
+	</ItemGroup>
+
+	<!-- References -->
+	<ItemGroup>
+	  <Folder Include="Content\Items\Armor\" />
+	  <Folder Include="Content\Items\Enemies\" />
+	  <Folder Include="Content\Items\NPC\" />
+	  <Folder Include="Content\Items\Potions\" />
+	  <Folder Include="Content\Items\Wings\" />
+	</ItemGroup>
+
+</Project>
